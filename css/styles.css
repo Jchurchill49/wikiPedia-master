@@ -1,0 +1,92 @@
+/* Stylesheet */
+
+nav ul li{
+	float:left;
+	list-style: none;
+	font-size:1em;
+	padding:.625em;
+	text-decoration:none;
+	
+}
+
+ a{
+	color: #050;
+	text-decoration: none;
+}
+ a:hover{
+	color:#0B0;
+}
+
+img{
+	width:100%;
+	padding: 1%;
+}
+
+
+
+body {
+	background: url("../img/wildflowers.png");
+	font-family: "MyriadPro: 'Voltaire', sans-serif;";
+	font-size:1em;
+}
+
+h1{
+	color: #6B8349;
+	font-size:2.5em;
+	
+}
+
+h3{
+	color: #9DAF7F;
+	font-size:2em;
+}
+
+aside h3{
+	font-size:1.5em;
+}
+
+
+
+@media screen and (max-width :550px){
+	
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+#logo object {
+	max-width: 30%;
+}
+#nav ul {
+	margin: 5% 0;
+}
+
+#nav ul li a {
+	-webkit-user-select: none;
+	font-size: 1em;
+}
+
+#nav ul li {
+	float: left;
+	margin: 5% 0;
+	}
+	
+img{
+	max-width:60%
+
+}
+h1{
+	color: #6B8349;
+	font-size:2em;
+	
+}
+}
